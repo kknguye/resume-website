@@ -1,6 +1,7 @@
 import Button from "../components/Button";
 import Logo from "../components/Logo";
 import DownloadIcon from '../assets/icn-download.svg';
+import ResumeUrl from '../assets/resume_nguyen_2025.pdf';
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -19,8 +20,16 @@ const Header = () => {
         ))}
       </div>
       <Button>
-        Resume
-        <img src={DownloadIcon} />
+        <a
+          href={ResumeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open resume PDF in new tab"
+          className="inline-flex items-center gap-2"
+        >
+          Resume
+          <img src={DownloadIcon} />
+        </a>
       </Button>
     </header>
   )

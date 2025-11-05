@@ -24,7 +24,12 @@ const Hero = () => {
             </div>
             {/* Bio Frame */}
             <div className="text-base">
-              <span>Passionate biologist turned aspiring computer scientist. After completing my B.S. in Biological Sciences from the University of South Carolina, I decided to pursue computer science at Clemson University. I am eager to explore new horizons and take on exciting challenges. With a foundation in biology, I am bringing a unique perspective to software development.</span>
+              <span>
+                Passionate biologist turned aspiring computer scientist. 
+                After completing my B.S. in Biological Sciences from the University of South Carolina, I decided to pursue computer science at Clemson University. 
+                I will be graduating this December 2025. 
+                I previously worked at <a href="https://www.alarm.com" className="underline">Alarm.com</a> as a Software Engineer Co-Op.
+              </span>
             </div>
           </div>
           <Socials />
