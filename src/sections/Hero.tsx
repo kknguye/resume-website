@@ -3,7 +3,7 @@ import ManIcon from "../assets/icn-man.svg";
 
 const Hero = () => {
   return (
-    <section className="w-[1440px] h-[716px] p-[60px_80px] flex justify-center items-center">
+    <section id="about" className="w-[1440px] h-[716px] p-[60px_80px] flex justify-center items-center scroll-mt-24">
       {/* Container */}
       <div className="w-[1280px] h-[596px] px-8 py-0 flex items-center">
         {/* Banner Frame */}

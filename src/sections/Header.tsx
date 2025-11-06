@@ -2,23 +2,27 @@ import Button from "../components/Button";
 import Logo from "../components/Logo";
 import DownloadIcon from '../assets/icn-download.svg';
 import ResumeUrl from '../assets/resume_nguyen_2025.pdf';
-import { Link } from "react-router-dom";
+
+const links = [
+  { text: "About Me", href: "#about" },
+  { text: "Skills", href: "#skills" },
+  { text: "Experience", href: "#experience" },
+  { text: "Contact Me", href: "#contact" },
+];
 
 const Header = () => {
   return (
     <header className="flex items-center justify-between">
       <Logo />
-      <div className="flex gap-8">
-        {["About Me", "Skills", "Projects", "Contact Me"].map((text, index) => (
-          <Link
-            key={index}
-            to={""}
-            className="font-semibold"
-          >
+
+      <nav className="flex gap-8">
+        {links.map(({ text, href }) => (
+          <a key={href} href={href} className="font-semibold">
             {text}
-          </Link>
+          </a>
         ))}
-      </div>
+      </nav>
+
       <Button>
         <a
           href={ResumeUrl}
