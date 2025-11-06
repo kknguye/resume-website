@@ -25,13 +25,13 @@ const Contact = () => {
           <div className="flex flex-col gap-6">
             <div>
               <p className="text-2xl font-semibold">Kenny Nguyen</p>
-              <p className="text-gray-500">Computer Science @ Clemson University</p>
+              <p className="text-zinc-500">Computer Science @ Clemson University</p>
             </div>
 
             <div>
               {contactInfo.map(({ icon, title, href }, i) => (
                 <div className="my-1 flex flex-row items-center gap-3" key={i}>
-                  <img className="w-6 h-6 text-gray-500" src={icon} />
+                  <img className="w-6 h-6 text-zinc-500" src={icon} />
                   <a href={href} className="hover:underline">{title}</a>
                 </div>
               ))}

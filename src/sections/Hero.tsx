@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
             {/* Bio Frame */}
             <div className="text-base">
-              <span>
+              <span className="text-zinc-500">
                 Passionate biologist turned aspiring computer scientist. 
                 After completing my B.S. in Biological Sciences from the University of South Carolina, I decided to pursue computer science at Clemson University. 
                 I will be graduating this December 2025. 
