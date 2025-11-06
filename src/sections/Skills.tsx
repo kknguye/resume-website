@@ -14,11 +14,11 @@ import TailwindIcon from "../assets/icn-tailwind-css.svg";
 const skillsData = [
   { title: 'C#', icon: CSharpIcon },
   { title: 'Java', icon: JavaIcon },
+  { title: 'Python', icon: PythonIcon },
   { title: 'TypeScript', icon: TypeScriptIcon },
   { title: 'JavaScript', icon: JavaScriptIcon },
-  { title: 'Ember.js', icon: EmberIcon },
-  { title: 'Python', icon: PythonIcon },
   { title: 'React', icon: ReactIcon },
+  { title: 'Ember.js', icon: EmberIcon },
   { title: 'Tailwind', icon: TailwindIcon },
   { title: '.NET', icon: DotNetIcon },
   { title: 'Git', icon: GitIcon },
