@@ -32,7 +32,7 @@ const Experience = () => {
           title="Software Engineer Co-Op at Alarm.com"
           dateRange="May 2024 - Aug 2024"
           description="
-            At Alarm.com, I worked as a full-stack Software Engineer Co-Op in an AGILE envirnment, maintaining applications built with Ember.js (TypeScript, Sass, Handlebars), .NET Core (C#), and MS SQL Server. 
+            At Alarm.com, I worked as a full-stack Software Engineer Co-Op in an Agile environment, maintaining applications built with Ember.js (TypeScript, Sass, Handlebars), .NET Core (C#), and MS SQL Server. 
             I developed and integrated a full-stack feature enabling remote door-lock control within live camera feeds, now used by over 20,000 commercial customers. 
             I also prepared labeled datasets and trained a convolutional neural network (CNN) for AI-driven floorplan recognition, automating device placement and reducing manual setup.
           "
