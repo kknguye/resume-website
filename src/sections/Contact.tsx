@@ -4,9 +4,6 @@ import MailIcon from "../assets/icn-mail.svg";
 import PhoneIcon from "../assets/icn-phone.svg";
 import LinkedInIcon from "../assets/icn-linkedin.svg";
 import GitHubIcon from "../assets/icn-github.svg";
-import type { ComponentType, SVGProps } from "react";
-
-type SvgComp = ComponentType<SVGProps<SVGSVGElement>>;
 
 const contactInfo = [
   { icon: MailIcon, title: 'kennyknguyenn@gmail.com', href: "mailto:kennyknguyenn@gmail.com" },

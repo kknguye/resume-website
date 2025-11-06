@@ -2,7 +2,6 @@ import Footer from "./sections/Footer";
 import Header from "./sections/Header";
 import Skills from "./sections/Skills";
 import Hero from "./sections/Hero";
-import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
 

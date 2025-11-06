@@ -19,7 +19,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
         {/* Logo, Title, Date */}
         <div className="w-[1120px] flex flex-row text-white justify-center">
             <div className="flex flex-row items-center gap-7">
-                <img className="h-[32px]" src={icon} />
+                <a href={href}><img className="h-[32px]" src={icon} /></a>
                 <p className="text-2xl font-semibold">{title}</p>
             </div>
             <p className="ml-auto self-center text-zinc-300">{dateRange}</p>
