@@ -10,6 +10,19 @@ const links = [
   { text: "Contact Me", href: "#contact" },
 ];
 
+const handleNav = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  e.preventDefault();
+  if (href === "#contact") {
+    window.scrollTo({ top: document.documentElement.scrollHeight });
+    return;
+  }
+  
+  const el = document.querySelector(href);
+  if (!el) return;
+  const block = (href === "#skills" || href === "#experience") ? "center" : "start";
+  el.scrollIntoView({ block, inline: "nearest" });
+};
+
 const Header = () => {
   return (
     <header className="flex items-center justify-between">
@@ -17,7 +30,12 @@ const Header = () => {
 
       <nav className="flex gap-8">
         {links.map(({ text, href }) => (
-          <a key={href} href={href} className="font-semibold">
+          <a
+            key={href}
+            href={href}
+            onClick={(e) => handleNav(e, href)}
+            className="font-semibold"
+          >
             {text}
           </a>
         ))}

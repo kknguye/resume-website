@@ -13,6 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html { scroll-behavior: smooth; }
+
 header,
 footer {
   @apply container mx-auto px-4 py-4 lg:px-20 lg:py-6;

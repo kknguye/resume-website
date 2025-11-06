@@ -8,11 +8,11 @@ const Experience = () => {
     <section
       id="experience"
       className="
-        mx-0 w-full h-[728px] p-[60px_80px]
-        !max-w-none !mx-0 !px-0 
-        flex justify-center items-center bg-black scroll-mt-24"
+        mx-0 w-full h-[728px] p-[60px_80px] !max-w-none
+        flex justify-center items-center bg-black scroll-mt-24
+      "
     >
-      <div className="w-[1280px] h-[608px] flex flex-col gap-8 items-center px-0 md:px-4 lg:px-8">
+      <div className="w-[1280px] h-[632px] flex flex-col gap-8 items-center px-0 md:px-4 lg:px-8">
         <span className="mb-6 text-white"><VariableWeightText regularText="My" extraBoldText="Experience" /></span>
         
         <ExperienceCard
