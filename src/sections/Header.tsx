@@ -1,7 +1,8 @@
 import Button from "../components/Button";
 import Logo from "../components/Logo";
 import DownloadIcon from '../assets/icn-download.svg';
-import ResumeUrl from '../assets/resume_nguyen_2025.pdf';
+
+const RESUME_URL = import.meta.env.BASE_URL + 'resume_nguyen_2025.pdf';
 
 const links = [
   { text: "About Me", href: "#about" },
@@ -42,7 +43,7 @@ const Header = () => {
       </nav>
 
       <Button
-        onClick={() => { window.open(ResumeUrl, "_blank", "noopener,noreferrer"); }}
+        onClick={() => { window.open(RESUME_URL, "_blank", "noopener,noreferrer"); }}
         aria-label="Open resume PDF in new tab"
         title="Open resume"
       >
