@@ -15,26 +15,32 @@ const Contact = () => {
         <VariableWeightText regularText="Contact" extraBoldText="Me" />
         {/* Container */}
         <div className="flex flex-row items-start gap-8">
-          {/* Container */}
-          <img className="h-[184px] w-[184px] border-1 border-zinc-500 rounded-lg shadow-md" src={MyPhoto} />
+          {/* Photo */}
+          <img className="h-[216px] w-[216px] border-1 border-zinc-500 rounded-lg shadow-md" src={MyPhoto} />
 
           <div className="flex flex-col gap-6">
+            {/* Name */}
             <div>
               <p className="text-2xl font-semibold">Kenny Nguyen</p>
               <p className="text-zinc-500">Computer Science @ Clemson University</p>
             </div>
 
+            {/* Contact Info */}
             <div>
-              {contactInfo.map(({ icon, title, href }, i) => (
-                <div className="my-1 flex flex-row items-center gap-3" key={i}>
-                  <i className={`${icon} text-[24px] text-zinc-500`} />
-                  <a href={href} className="hover:underline">{title}</a>
-                </div>
-              ))}
+              {
+                contactInfo.map(({ icon, title, href }, i) => (
+                  <div className="my-1 flex flex-row items-center gap-3" key={i}>
+                    <i className={`${icon} text-[24px] text-zinc-500`} />
+                    <a href={href} className="hover:underline">{title}</a>
+                  </div>
+                ))
+              }
             </div>
 
+            {/* Divider */}
             <hr className="w-full border-t border-zinc-300" />
 
+            {/* Location */}
             <div className="flex flex-col gap-1">
               <p className="font-bold text-zinc-500">Location</p>
               <p>Greenville, SC</p>
