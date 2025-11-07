@@ -15,7 +15,13 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
 }) => {
   return (
     /* Container */
-    <div className="w-[1168px] h-[200px] flex flex-col gap-7 py-7 px-6 border-2 rounded-lg border-white">
+    <div 
+      className="
+        w-[1168px] h-[200px] flex flex-col gap-7 py-7 px-6
+        border-2 rounded-lg border-zinc-500
+        hover:bg-zinc-800 transition-colors duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]
+      "
+    >
         {/* Logo, Title, Date */}
         <div className="w-[1120px] flex flex-row text-white justify-center">
             <div className="flex flex-row items-center gap-7">

@@ -41,17 +41,13 @@ const Header = () => {
         ))}
       </nav>
 
-      <Button>
-        <a
-          href={ResumeUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Open resume PDF in new tab"
-          className="inline-flex items-center gap-2"
-        >
-          Resume
-          <img src={DownloadIcon} />
-        </a>
+      <Button
+        onClick={() => { window.open(ResumeUrl, "_blank", "noopener,noreferrer"); }}
+        aria-label="Open resume PDF in new tab"
+        title="Open resume"
+      >
+        Resume
+        <img src={DownloadIcon} />
       </Button>
     </header>
   )

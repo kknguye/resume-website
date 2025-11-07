@@ -1,7 +1,6 @@
 import SkillCard from "../components/SkillCard";
 import VariableWeightText from "../components/VariableWeightText";
 import GitIcon from "../assets/icn-git.svg";
-import JavaScriptIcon from "../assets/icn-javscript.svg";
 import TypeScriptIcon from "../assets/icn-typescript.svg";
 import ReactIcon from "../assets/icn-react.svg";
 import JavaIcon from "../assets/icn-java.svg";
@@ -10,17 +9,18 @@ import CSharpIcon from "../assets/icn-c-sharp.svg";
 import PythonIcon from "../assets/icn-python.svg";
 import DotNetIcon from "../assets/icn-dot-net.svg";
 import TailwindIcon from "../assets/icn-tailwind-css.svg";
+import AWSIcon from "../assets/icn-aws.svg";
 
 const skillsData = [
   { title: 'C#', icon: CSharpIcon },
   { title: 'Java', icon: JavaIcon },
   { title: 'Python', icon: PythonIcon },
   { title: 'TypeScript', icon: TypeScriptIcon },
-  { title: 'JavaScript', icon: JavaScriptIcon },
   { title: 'React', icon: ReactIcon },
   { title: 'Ember.js', icon: EmberIcon },
   { title: 'Tailwind', icon: TailwindIcon },
   { title: '.NET', icon: DotNetIcon },
+  { title: 'AWS', icon: AWSIcon },
   { title: 'Git', icon: GitIcon },
 ]
 
